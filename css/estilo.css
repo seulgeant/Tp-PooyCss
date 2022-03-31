@@ -1,0 +1,100 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    background-color: rgb(0, 0, 3);
+    background-image: url(../imagen/imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: center;
+    background-position-y: 0vw;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    background-blend-mode: hard-light;
+    
+    }   
+    
+
+
+ li{
+    list-style: none;
+    float: left;
+    margin-right: 0.5vw;
+ }
+ .cabecera{
+     padding-top:0;
+    padding-left: 1vw ;
+    width:100%;
+    float: left;
+background-color: rgb(0, 0, 10);
+
+ }
+ div#cabecera-2{
+     position:absolute;
+    left:65%;
+ 
+ }
+
+.nombre-1{
+    margin-top: 1vw ;
+    width: 7vw;
+    border-color: rgb(128,128,128);
+}
+
+.principal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500;
+    
+       }
+h2.form{ padding-top: 7vw;
+    text-align: center;
+}
+.formulario{
+    
+margin: top 0.5em; ;
+    padding-top: 1vw;
+    padding-bottom: 0.5em;
+    text-align: center;
+    border: 3px rgb(255, 255, 255) ;
+    border-style: none ;
+    }
+    .alineacion-forms{
+        text-align: left;
+        margin: 5px 100px 0px 100px;
+    }
+input#nombre{
+    margin-left: 20px;
+    border-color: rgb(128,128,128);
+}
+input#apellido{
+    margin-left: 13px;
+    border-color: rgb(128,128,128);
+}
+input#genero{
+    margin-left: 46px;
+    border-color: rgb(128,128,128); 
+}
+input#correo{
+    margin-left: 30px;
+    border-color: rgb(128,128,128);
+}
+.checkbox{
+    padding-top: 5px;
+}
+#ingresar{
+    margin-top:1vw ;
+    margin-right: 0.5vw;
+}
+input#checkbox-2{
+    margin-left: 18px;
+    
+}
+footer{
+    position:absolute;
+    bottom:0vw;
+    right:1vw;
+    font-size: small;
+    width:100%;
+    text-align: right;
+}
